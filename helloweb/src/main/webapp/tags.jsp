@@ -7,6 +7,44 @@
 <title>Insert title here</title>
 </head>
 <body>
-
+	<h1>안녕하세요</h1>
+	<h2>안녕하세요</h2>
+	<h3>안녕하세요</h3>
+	<h4>안녕하세요</h4>
+	<h5>안녕하세요</h5>
+	<h6>안녕하세요</h6>
+	
+	<table border='1' cellspacing='0'>
+		<tr>
+			<th>글번호</th>
+			<th>글제목</th>
+			<th>작성자</th>
+		</tr>
+		<tr>
+			<td>1</td>
+			<td>2</td>
+			<td>3</td>
+		</tr>
+		<tr>
+			<td>4</td>
+			<td>5</td>
+			<td>6</td>
+		</tr>
+	</table>
+	
+	<img src='http://localhost:8080/helloweb/images/LoopyCurrentOutfit.jpg'><br>
+	<img src='/helloweb/images/LoopyCurrentOutfit.jpg'>
+	<img src='./images/LoopyCurrentOutfit.jpg'>
+	
+	<p>
+		문장이에용.<br>	
+		문장이에용.	
+		문장이에용.
+	</p>
+	
+	<a href ="/helloweb/hello?id=BbingDdang">hello로 간다.</a>
+	<a href ="/helloweb/form.jsp">form으로 간다.</a>
+	
+	
 </body>
 </html>
